@@ -1,19 +1,17 @@
 
-General
-Genrate 10 images of {}
-AutoCoT
+FairCoT CoT Generation:
+iter0
 think step by step before generating images while considering several race, ethnicities, religion, and ages and treating people of these categories equally
 now can you generate the 10 {-} images taking these thoughts into consideration?
 Iter-CoT
-can you think again?consider generating images of different religions, races, ages, and genders
+Can you think again? Consider generating images of different religions, races, ages, and genders
 FinalCoT
-can you please give a detailed description of the thoughts you used to get the final less biased generated images
-Inference
-Consider the following task;
-generate 10 {train} images; a more fair repose will be based on the the following criteria :CoT
-can you now generate 10 {inference} images?
-consider this chain of thought for nurses "xxx" Can you inspired by this generate a similar chain of thought for doctors
-can you use it to generate 20 prompts that will be used to generate 20 images in stable diffusion(1 image per prompt) following these guidelines
+Can you please give a detailed description of the thoughts you used to get the final less biased generated images
+
+
+FairCoT Inference:
+Consider this chain of thought for nurses "xxx" Can you inspired by this generate a similar chain of thought for doctors
+Can you use it to generate 20 prompts that will be used to generate 20 images in stable diffusion(1 image per prompt), following these guidelines
 
 
 
